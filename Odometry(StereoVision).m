@@ -2,7 +2,7 @@ clear all;
 close all;
 clc;
 
-left = imread('left_tsu.png'); %diavazei thn left
+left = imread('left_tsu.png'); %diavazei thn left             
 right = imread('right_tsu.png'); %diavazei thn right
 left = rgb2gray(left); %kanei se apoxrwseis tou gri tin left
 right = rgb2gray(right);%kanei se apoxrwseis tou gri tin right
