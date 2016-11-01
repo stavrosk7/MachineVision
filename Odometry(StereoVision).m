@@ -13,10 +13,10 @@ right = rgb2gray(right);%kanei se apoxrwseis tou gri tin right
 % imshow(left);
 
 
-disparity = zeros(size(left)); %gemizei ena pinaka me mhdenika opou 8a dixnei gia ka8e pixel thn diafora tou apo thn allh eikona
-dispMin = 0; %ka8orizei to orio tou disparity (to ka8orizw me to xeri)
-dispMax = 17; %ka8orizei to orio tou disparity
-wind_size = 3; %kanei ena para8uro opou exei mhkos 3 pixel(mono monoi ari8moi kai oso mikroteroi ginetai)
+disparity = zeros(size(left)); %gemizei ena pinaka me mhdenika opou 8a dixnei gia ka8e pixel thn diafora tou apo thn allh eikona          
+dispMin = 0; %ka8orizei to orio tou disparity (to ka8orizw me to xeri)        
+dispMax = 17; %ka8orizei to orio tou disparity           
+wind_size = 3; %kanei ena para8uro opou exei mhkos 3 pixel(mono monoi ari8moi kai oso mikroteroi ginetai)            
 if mod(wind_size,2)==0
     wind_size=wind_size+1;
 end
