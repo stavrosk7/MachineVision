@@ -4,11 +4,11 @@ clc;
 
 left = imread('left_tsu.png'); %diavazei thn left             
 right = imread('right_tsu.png'); %diavazei thn right                              
-left = rgb2gray(left); %kanei se apoxrwseis tou gri tin left
-right = rgb2gray(right);%kanei se apoxrwseis tou gri tin right
-% figure; %dhmiourgei keno para8uro
-% subplot(1,2,2); %dhmiourgei dexio grafiko apotypoma
-% imshow(right); %opou emfanizei thn right
+left = rgb2gray(left); %kanei se apoxrwseis tou gri tin left                     
+right = rgb2gray(right);%kanei se apoxrwseis tou gri tin right                              
+% figure; %dhmiourgei keno para8uro                            
+% subplot(1,2,2); %dhmiourgei dexio grafiko apotypoma                
+% imshow(right); %opou emfanizei thn right                
 % subplot(1,2,1); %dhmiourgei aristero grafiko apotypoma
 % imshow(left);
 
